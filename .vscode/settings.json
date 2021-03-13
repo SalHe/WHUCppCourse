@@ -1,0 +1,14 @@
+{
+  "debug.inlineValues": true,
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "cmake.debugConfig": {
+    "externalConsole": true
+},
+"files.associations": {
+    "ostream": "cpp",
+    "xiosbase": "cpp"
+}
+}

@@ -126,6 +126,7 @@ int main(int argc, char const *argv[])
 ### 2-29. 用穷举法找出1～100间的质数并显示出来。分别使用while, do… while, for循环语句实现。
 
 - for 循环
+
 ```c++
 #include <iostream>
 #include <cmath>
@@ -280,7 +281,7 @@ int main(int argc, char const *argv[])
 
 ```
 
-### 声明枚举类型 Weekday,包括SUNDAY到SATURDAY七个元素在程序中声明weekday类型的变量,对其赋值,声明整型变量,看看能否对其赋Weekday类型的值。
+### 2-34. 声明枚举类型 Weekday,包括SUNDAY到SATURDAY七个元素在程序中声明weekday类型的变量,对其赋值,声明整型变量,看看能否对其赋Weekday类型的值。
 
 答：可以对整型变量赋Weekday的值。
 

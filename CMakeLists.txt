@@ -21,3 +21,15 @@ add_executable(Assignment ./Assignment.cpp)
 add_executable(Sizeof ./Sizeof.cpp)
 
 add_executable(LabShape ./Lab/main.cpp ./Lab/Shape.hpp)
+
+
+
+add_executable(HW04_Weather ./HW/hw04/Weather.cpp)
+add_executable(HW04_MenuIf ./HW/hw04/MenuIf.cpp)
+add_executable(HW04_MenuSwitch ./HW/hw04/MenuSwitch.cpp)
+add_executable(HW04_FindPrimeFor ./HW/hw04/FindPrimeFor.cpp)
+add_executable(HW04_FindPrimeWhile ./HW/hw04/FindPrimeWhile.cpp)
+add_executable(HW04_FindPrimeDoWhile ./HW/hw04/FindPrimeDoWhile.cpp)
+add_executable(HW04_GuessNumberWhile ./HW/hw04/GuessNumberWhile.cpp)
+add_executable(HW04_GuessNumberDoWhile ./HW/hw04/GuessNumberDoWhile.cpp)
+add_executable(HW04_Enum ./HW/hw04/Enum.cpp)

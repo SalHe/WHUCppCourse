@@ -218,7 +218,7 @@ int main(int argc, char const *argv[])
 
 
 
-### 2-33. 在程序中定义一个整型变量,赋予1～100的值。要求用户猜这个数﹐比较两个数的大小,把结果提示给用户,直到猜对为止。分别使用while, do…- while语句实现循环。
+### 2-32. 在程序中定义一个整型变量,赋予1～100的值。要求用户猜这个数﹐比较两个数的大小,把结果提示给用户,直到猜对为止。分别使用while, do…- while语句实现循环。
 
 - while
 
@@ -281,7 +281,7 @@ int main(int argc, char const *argv[])
 
 ```
 
-### 2-34. 声明枚举类型 Weekday,包括SUNDAY到SATURDAY七个元素在程序中声明weekday类型的变量,对其赋值,声明整型变量,看看能否对其赋Weekday类型的值。
+### 2-33. 声明枚举类型 Weekday,包括SUNDAY到SATURDAY七个元素在程序中声明weekday类型的变量,对其赋值,声明整型变量,看看能否对其赋Weekday类型的值。
 
 答：可以对整型变量赋Weekday的值。
 
@@ -305,4 +305,32 @@ int main(int argc, char const *argv[])
     return 0;
 }
 
+```
+
+### 2-34. 口袋中有红、黄、蓝、白、黑5种颜色的球若干个。每次从口袋中取出3个不同颜色的球，问有多少种取法？
+
+答案：10种。
+```c++
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char const *argv[])
+{
+    int count = 0;
+    const char *colors[] = {"红", "黄", "蓝", "白", "黑"};
+
+    for (int c1 = 0; c1 < 5; c1++)
+        for (int c2 = c1 + 1; c2 < 5; c2++)
+            for (int c3 = c2 + 1; c3 < 5; c3++)
+            {
+                count++;
+                cout << colors[c1] << "," << colors[c2] << "," << colors[c3] << endl;
+            }
+
+    cout << endl
+         << "共计" << count << "种" << endl;
+
+    return 0;
+}
 ```

@@ -34,3 +34,7 @@ add_executable(HW04_GuessNumberWhile ./HW/hw04/GuessNumberWhile.cpp)
 add_executable(HW04_GuessNumberDoWhile ./HW/hw04/GuessNumberDoWhile.cpp)
 add_executable(HW04_Enum ./HW/hw04/Enum.cpp)
 add_executable(HW04_ColorCombination ./HW/hw04/ColorCombination.cpp)
+
+
+add_executable(HW05_CovertTemperature ./HW/hw05/CovertTemperature.cpp)
+add_executable(HW05_IsPrimeNumber ./HW/hw05/IsPrimeNumber.cpp)

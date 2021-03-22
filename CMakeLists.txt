@@ -38,3 +38,4 @@ add_executable(HW04_ColorCombination ./HW/hw04/ColorCombination.cpp)
 
 add_executable(HW05_CovertTemperature ./HW/hw05/CovertTemperature.cpp)
 add_executable(HW05_IsPrimeNumber ./HW/hw05/IsPrimeNumber.cpp)
+add_executable(HW05_FindDivisionProduct ./HW/hw05/FindDivisionProduct.cpp)

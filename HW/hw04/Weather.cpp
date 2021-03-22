@@ -4,17 +4,17 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    cout << "ÏÖÔÚÕýÔÚÏÂÓêÂð?" << endl;
+    cout << "çŽ°åœ¨æ­£åœ¨ä¸‹é›¨å—?" << endl;
 
     char sel;
     cin >> sel;
 
     if (sel == 'Y' || sel == 'y')
-        cout << "ÏÖÔÚÕýÔÚÏÂÓê¡£" << endl;
+        cout << "çŽ°åœ¨æ­£åœ¨ä¸‹é›¨ã€‚" << endl;
     else if (sel == 'N' || sel == 'n')
-        cout << "ÏÖÔÚÃ»ÓÐÏÂÓê¡£" << endl;
+        cout << "çŽ°åœ¨æ²¡æœ‰ä¸‹é›¨ã€‚" << endl;
     else
-        cout << "ÇëÊäÈëY/N" << endl;
+        cout << "è¯·è¾“å…¥Y/N" << endl;
 
     return 0;
 }

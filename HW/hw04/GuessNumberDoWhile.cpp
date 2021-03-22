@@ -8,18 +8,18 @@ int main(int argc, char const *argv[])
     srand((unsigned int)time(nullptr));
     int number = rand() % 100 + 1;
     int userNumber;
-    cout << "ÇëÊäÈëÄã²ÂµÄÊı£º" << endl;
+    cout << "è¯·è¾“å…¥ä½ çŒœçš„æ•°ï¼š" << endl;
     do
     {
         cin >> userNumber;
         if (userNumber > number)
-            cout << "Äã²Â´óÁËÅ¶~ÔÙÊÔÒ»±é" << endl;
+            cout << "ä½ çŒœå¤§äº†å“¦~å†è¯•ä¸€é" << endl;
         else if (userNumber < number)
-            cout << "Äã²ÂĞ¡ÁËÅ¶~ÔÙÊÔÒ»±é" << endl;
+            cout << "ä½ çŒœå°äº†å“¦~å†è¯•ä¸€é" << endl;
         else
             break;
     } while (true);
-    cout << "²Â¶ÔÁË" << endl;
+    cout << "çŒœå¯¹äº†" << endl;
 
     return 0;
 }

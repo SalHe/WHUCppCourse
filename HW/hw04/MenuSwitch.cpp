@@ -13,13 +13,13 @@ int main(int argc, char const *argv[])
         switch (opt)
         {
         case 'A':
-            cout << "数据已经增加" << endl;
+            cout << "鏁版嵁宸茬粡澧炲姞" << endl;
             break;
         case 'D':
-            cout << "数据已经删除" << endl;
+            cout << "鏁版嵁宸茬粡鍒犻櫎" << endl;
             break;
         case 'S':
-            cout << "数据已经排序" << endl;
+            cout << "鏁版嵁宸茬粡鎺掑簭" << endl;
             break;
         case 'Q':
             return 0;

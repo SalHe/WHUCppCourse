@@ -16,7 +16,7 @@ bool isPrime(int num)
 int main(int argc, char const *argv[])
 {
     for (int i = 1; i <= 100; i++)
-        cout << i << (isPrime(i) ? "ÊÇ" : "²»ÊÇ") << "ËØÊý"<< endl;
+        cout << i << (isPrime(i) ? "æ˜¯" : "ä¸æ˜¯") << "ç´ æ•°"<< endl;
 
     return 0;
 }

@@ -16,7 +16,7 @@ unsigned int maxCommonDivisor(unsigned int a, unsigned int b)
 
 unsigned int minCommonMultiple(unsigned int n1, unsigned int n2)
 {
-    // »ñÈ¡×î´óµÄÊý
+    // èŽ·å–æœ€å¤§çš„æ•°
     unsigned int max = (n1 > n2) ? n1 : n2;
  
     do
@@ -32,13 +32,13 @@ unsigned int minCommonMultiple(unsigned int n1, unsigned int n2)
 int main(int argc, char const *argv[])
 {
     unsigned int X, Y;
-    cout << "ÇëÊäÈë X: ";
+    cout << "è¯·è¾“å…¥ X: ";
     cin >> X;
-    cout << "ÇëÊäÈë Y: ";
+    cout << "è¯·è¾“å…¥ Y: ";
     cin >> Y;
 
-    cout << "×îÐ¡¹«±¶Êý£º" << minCommonMultiple(X, Y) << endl;
-    cout << "×î´ó¹«ÒòÊý£º" << maxCommonDivisor(X, Y) << endl;
+    cout << "æœ€å°å…¬å€æ•°ï¼š" << minCommonMultiple(X, Y) << endl;
+    cout << "æœ€å¤§å…¬å› æ•°ï¼š" << maxCommonDivisor(X, Y) << endl;
 
     return 0;
 }

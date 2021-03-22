@@ -10,12 +10,12 @@ float F2C(int f)
 int main(int argc, char const *argv[])
 {
 
-    cout << "ÇëÊäÈëÒ»¸öÎÂ¶È(»ªÊÏ¶È)£º" << endl;
+    cout << "è¯·è¾“å…¥ä¸€ä¸ªæ¸©åº¦(åæ°åº¦)ï¼š" << endl;
 
     float f;
     cin >> f;
 
-    cout << "Æä¶ÔÓ¦µÄÉãÊÏ¶ÈÎª£º" << F2C(f) << endl;
+    cout << "å…¶å¯¹åº”çš„æ‘„æ°åº¦ä¸ºï¼š" << F2C(f) << endl;
 
     return 0;
 }

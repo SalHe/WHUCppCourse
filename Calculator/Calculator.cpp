@@ -23,6 +23,7 @@ double Calculator::Calculate(double x, char oper, double y)
     default:
         break;
     }
+    return 0;
 }
 
 int main()
@@ -31,12 +32,12 @@ int main()
     double y = 0.0;
     double result = 0.0;
     char oper = '+';
-    cout << "ËãÊõÔËËãÊ¾Àý³ÌÐò" << endl
+    cout << "ç®—æœ¯è¿ç®—ç¤ºä¾‹ç¨‹åº" << endl
          << endl;
     Calculator c;
     while (oper != '$')
     {
-        cout << "ÇëÊäÈëÔËËãÊ½£¬¸ñÊ½Èç£º a + b | a - b | a*b | a / b" << endl;
+        cout << "è¯·è¾“å…¥è¿ç®—å¼ï¼Œæ ¼å¼å¦‚ï¼š a + b | a - b | a*b | a / b" << endl;
         cin >> x >> oper >> y;
         if (oper == '/' && y == 0)
         {

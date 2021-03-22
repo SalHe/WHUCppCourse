@@ -16,12 +16,12 @@ bool isPrime(int num)
 int main(int argc, char const *argv[])
 {
 
-    cout << "ÇëÊäÈëÒ»¸öÕûÊý£º" << endl;
+    cout << "è¯·è¾“å…¥ä¸€ä¸ªæ•´æ•°ï¼š" << endl;
 
     int num;
     cin >> num;
 
-    cout << num << (isPrime(num) ? "ÊÇ" : "²»ÊÇ") << "ÖÊÊý" << endl;
+    cout << num << (isPrime(num) ? "æ˜¯" : "ä¸æ˜¯") << "è´¨æ•°" << endl;
 
     return 0;
 }

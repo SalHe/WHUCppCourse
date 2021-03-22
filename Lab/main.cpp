@@ -6,10 +6,10 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    cout << "ÇëÑ¡Ôñ´´½¨µÄÍ¼ÐÎÀàÐÍ£º" << endl;
-    cout << "1. Õý·½ÐÎ" << endl;
-    cout << "2. ³¤·½ÐÎ" << endl;
-    cout << "3. Ô²ÐÎ" << endl;
+    cout << "è¯·é€‰æ‹©åˆ›å»ºçš„å›¾å½¢ç±»åž‹ï¼š" << endl;
+    cout << "1. æ­£æ–¹å½¢" << endl;
+    cout << "2. é•¿æ–¹å½¢" << endl;
+    cout << "3. åœ†å½¢" << endl;
 
     unsigned int shapeType;
     cin >> shapeType;
@@ -20,30 +20,30 @@ int main(int argc, char const *argv[])
     switch (shapeType)
     {
     case 1:
-        cout << "ÄúÑ¡ÔñÁËÕý·½ÐÎ£º" << endl;
-        cout << "ÇëÊäÈë±ß³¤" << endl;
+        cout << "æ‚¨é€‰æ‹©äº†æ­£æ–¹å½¢ï¼š" << endl;
+        cout << "è¯·è¾“å…¥è¾¹é•¿" << endl;
         cin >> a;
         shape = Rectangle::createSquare(a);
         break;
     case 2:
-        cout << "ÄúÑ¡ÔñÁË³¤·½ÐÎ£º" << endl;
-        cout << "ÇëÊäÈë³¤ºÍ¿í" << endl;
+        cout << "æ‚¨é€‰æ‹©äº†é•¿æ–¹å½¢ï¼š" << endl;
+        cout << "è¯·è¾“å…¥é•¿å’Œå®½" << endl;
         cin >> b >> a;
         shape = Rectangle::createRectangle(a, b);
         break;
     case 3:
-        cout << "ÄúÑ¡ÔñÁËÔ²ÐÎ£º" << endl;
-        cout << "ÇëÊäÈë°ë¾¶" << endl;
+        cout << "æ‚¨é€‰æ‹©äº†åœ†å½¢ï¼š" << endl;
+        cout << "è¯·è¾“å…¥åŠå¾„" << endl;
         cin >> a;
         shape = Circle::createCircle(a);
         break;
     default:
-        cout << "ÎÞÐ§µÄÀàÐÍ" << endl;
+        cout << "æ— æ•ˆçš„ç±»åž‹" << endl;
         return 1;
         // break;
     }
 
-    cout << "ÊÇ·ñ±£ÁôÁ½Î»Ð¡Êý£¿(Y/N)";
+    cout << "æ˜¯å¦ä¿ç•™ä¸¤ä½å°æ•°ï¼Ÿ(Y/N)";
     bool toFix;
     char yn;
     cin >> yn;
@@ -52,7 +52,7 @@ int main(int argc, char const *argv[])
     if (toFix)
         cout << setprecision(2) << fixed;
 
-    cout << "Ãæ»ý£º" << shape->calcArea() << endl;
+    cout << "é¢ç§¯ï¼š" << shape->calcArea() << endl;
 
     delete shape;
 

@@ -11,11 +11,11 @@ int main(int argc, char const *argv[])
         char opt;
         cin >> opt;
         if (opt == 'A')
-            cout << "数据已经增加" << endl;
+            cout << "鏁版嵁宸茬粡澧炲姞" << endl;
         else if (opt == 'D')
-            cout << "数据已经删除" << endl;
+            cout << "鏁版嵁宸茬粡鍒犻櫎" << endl;
         else if (opt == 'S')
-            cout << "数据已经排序" << endl;
+            cout << "鏁版嵁宸茬粡鎺掑簭" << endl;
         else if (opt == 'Q')
             return 0;
     }

@@ -5,7 +5,7 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
     int count = 0;
-    const char *colors[] = {"ºì", "»Æ", "À¶", "°×", "ºÚ"};
+    const char *colors[] = {"çº¢", "é»„", "è“", "ç™½", "é»‘"};
 
     for (int c1 = 0; c1 < 5; c1++)
         for (int c2 = c1 + 1; c2 < 5; c2++)
@@ -16,7 +16,7 @@ int main(int argc, char const *argv[])
             }
 
     cout << endl
-         << "¹²¼Æ" << count << "ÖÖ" << endl;
+         << "å…±è®¡" << count << "ç§" << endl;
 
     return 0;
 }

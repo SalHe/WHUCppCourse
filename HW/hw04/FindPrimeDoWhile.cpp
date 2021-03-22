@@ -18,7 +18,7 @@ int main(int argc, char const *argv[])
     int i = 1;
     do
     {
-        cout << i << (isPrime(i) ? "ÊÇ" : "²»ÊÇ") << "ËØÊý"<< endl;
+        cout << i << (isPrime(i) ? "æ˜¯" : "ä¸æ˜¯") << "ç´ æ•°"<< endl;
     } while ((++i) <= 100);
 
     return 0;

@@ -1,5 +1,7 @@
 project(CppCourse)
 
+cmake_minimum_required(VERSION 3.17)
+
 add_executable(Calcutor ./Calculator/Calculator.cpp)
 
 add_executable(BasicType ./BasicType/main.cpp)
@@ -41,3 +43,8 @@ add_executable(HW05_IsPrimeNumber ./HW/hw05/IsPrimeNumber.cpp)
 add_executable(HW05_FindDivisionProduct ./HW/hw05/FindDivisionProduct.cpp)
 add_executable(HW05_Sum ./HW/hw05/Sum.cpp)
 add_executable(HW05_Fibonacci ./HW/hw05/Fibonacci.cpp)
+
+add_executable(HW06_Dog ./HW/hw06/Dog.cpp)
+add_executable(HW06_Rectangle ./HW/hw06/Rectangle.cpp)
+add_executable(HW06_Person ./HW/hw06/Person.cpp)
+add_executable(HW06_Complex ./HW/hw06/Complex.cpp)

@@ -8,7 +8,9 @@
     "externalConsole": true
 },
 "files.associations": {
-    "ostream": "cpp",
-    "xiosbase": "cpp"
+  "*.asm": "asm-intel-x86-generic",
+  "ostream": "cpp",
+  "xiosbase": "cpp",
+  "cstdlib": "cpp"
 }
 }

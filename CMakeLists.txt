@@ -1,6 +1,6 @@
 project(CppCourse)
 
-cmake_minimum_required(VERSION 3.17)
+cmake_minimum_required(VERSION 3.16)
 
 add_executable(Calcutor ./Calculator/Calculator.cpp)
 
@@ -22,7 +22,7 @@ add_executable(BitShift ./Math/BitShift.cpp)
 add_executable(Assignment ./Assignment.cpp)
 add_executable(Sizeof ./Sizeof.cpp)
 
-add_executable(LabShape ./Lab/main.cpp ./Lab/Shape.hpp)
+add_executable(Lab01_Shape ./Lab/Lab01/main.cpp ./Lab/Lab01/Shape.hpp)
 
 
 

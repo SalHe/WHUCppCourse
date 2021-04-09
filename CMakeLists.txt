@@ -46,7 +46,8 @@ add_executable(HW05_Fibonacci ./HW/hw05/Fibonacci.cpp)
 
 add_executable(HW06_Dog ./HW/hw06/Dog.cpp)
 add_executable(HW06_Rectangle ./HW/hw06/Rectangle.cpp)
-add_executable(HW06_Person ./HW/hw06/Person.cpp)
+# add_executable(HW06_Person ./HW/hw06/Person.cpp)
 add_executable(HW06_Complex ./HW/hw06/Complex.cpp)
 
 add_executable(Lab02_GetPower ./Lab/Lab02/GetPower.cpp)
+add_executable(Lab02_Max1 ./Lab/Lab02/Max1.cpp)

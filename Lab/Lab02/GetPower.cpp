@@ -6,22 +6,24 @@ using namespace std;
 
 int getPower(int x, int y)
 {
-    int ans = 1;
-    for (int i = 0; i < y; i++)
-    {
-        ans *= x;
-    }
-    return ans;
+    if (y == 0)
+        return x == 1;
+    if (y == 1)
+        return x;
+    if (y < 0)
+        return 0;
+    return getPower(x, y - 1) * x;
 }
 
 double getPower(double x, int y)
 {
-    double ans = 1;
-    for (int i = 0; i < y; i++)
-    {
-        ans *= x;
-    }
-    return ans;
+    if (y == 0)
+        return x == 1;
+    if (y == 1)
+        return x;
+    if (y < 0)
+        return 1 / getPower(x, -y);
+    return getPower(x, y - 1) * x;
 }
 
 int main(int argc, char const *argv[])
@@ -43,6 +45,10 @@ int main(int argc, char const *argv[])
          << endl;
     cout << "a^m = " << getPower(a, m) << endl;
     cout << "b^m = " << getPower(b, m) << endl;
+
+    // 如果要让getPower(a, m)能调用getPower(double, double)
+    // 只需将a转换为double即可
+    getPower((double)a, m);
 
     return 0;
 }

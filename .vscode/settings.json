@@ -11,6 +11,7 @@
   "*.asm": "asm-intel-x86-generic",
   "ostream": "cpp",
   "xiosbase": "cpp",
-  "cstdlib": "cpp"
+  "cstdlib": "cpp",
+  "random": "cpp"
 }
 }

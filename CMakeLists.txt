@@ -51,3 +51,11 @@ add_executable(HW06_Complex ./HW/hw06/Complex.cpp)
 
 add_executable(Lab02_GetPower ./Lab/Lab02/GetPower.cpp)
 add_executable(Lab02_Max1 ./Lab/Lab02/Max1.cpp)
+
+add_executable(DefalueArg ./Function/DefaultArg.cpp)
+add_executable(FunDefineAndUse ./Function/FunDefineAndUse.cpp)
+add_executable(InlineFunc ./Function/InlineFunc.cpp)
+add_executable(InlineFunc2 ./Function/InlineFunc2.cpp)
+add_executable(NoReturnAndRefArg ./Function/NoReturnAndRefArg.cpp)
+add_executable(Reload ./Function/Reload.cpp)
+add_executable(Reload2 ./Function/Reload2.cpp)

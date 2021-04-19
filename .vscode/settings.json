@@ -12,6 +12,13 @@
   "ostream": "cpp",
   "xiosbase": "cpp",
   "cstdlib": "cpp",
-  "random": "cpp"
+  "random": "cpp",
+  "*.tcc": "cpp",
+  "bitset": "cpp",
+  "optional": "cpp",
+  "functional": "cpp",
+  "iosfwd": "cpp",
+  "stdexcept": "cpp",
+  "algorithm": "cpp"
 }
 }

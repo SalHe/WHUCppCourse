@@ -59,3 +59,7 @@ add_executable(InlineFunc2 ./Function/InlineFunc2.cpp)
 add_executable(NoReturnAndRefArg ./Function/NoReturnAndRefArg.cpp)
 add_executable(Reload ./Function/Reload.cpp)
 add_executable(Reload2 ./Function/Reload2.cpp)
+
+add_executable(HW09_Cat ./HW/hw09/Cat.cpp)
+add_executable(HW09_StaticLocal ./HW/hw09/StaticLocal.cpp)
+add_executable(HW09_5_13 ./HW/hw09/5-13.cpp ./HW/hw09/5-13.h)

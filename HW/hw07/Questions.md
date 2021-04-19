@@ -104,7 +104,7 @@ public:
 };
 ```
 
-### 4-12. 定义一个DataType(数据类型)类，能处理包含字符型、整型、浮点型3中类型的数据，给出其构造函数。
+### 4-12. 定义一个DataType(数据类型)类，能处理包含字符型、整型、浮点型3种类型的数据，给出其构造函数。
 
 ```c++
 class DataType
@@ -130,3 +130,18 @@ public:
 
 };
 ```
+
+
+### 4-15. 根据例4-3中关于Circle类的定义的源代码绘出该类的UML图形表示。
+
+![](./img/uml_Circle.jpg)
+
+
+### 4-17. 在一个大学的选课系统中，包括两个类：CourseSchedule类和Course类。其关系为：CourseSchedule类中的成员函数add和remove的参数是Course的对象，请通过UML方法显示的表示出这种依赖关系。
+
+![](./img/uml_4_17.jpg)
+
+
+### 4-18. 在一个学校院系人员信息系统中，需要对院系（Department）和教室（Teacher）之间的关系以来部分建模，其关系描述为：每个Teacher可以属于零个或多个Department的成员，而每个Department至少包含一个Teacher作为成员。根据以上关系绘制出相应的UML类图。
+
+![](./img/uml_4_18.jpg)

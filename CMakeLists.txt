@@ -63,3 +63,16 @@ add_executable(Reload2 ./Function/Reload2.cpp)
 add_executable(HW09_Cat ./HW/hw09/Cat.cpp)
 add_executable(HW09_StaticLocal ./HW/hw09/StaticLocal.cpp)
 add_executable(HW09_5_13 ./HW/hw09/5-13.cpp ./HW/hw09/5-13.h)
+
+add_executable(Lab03_Constructor ./Lab/Lab03/Constructor.cpp)
+add_executable(Lab03_ContructorWithDefaultArg 
+                ./Lab/Lab03/ContructorWithDefaultArg/date.cpp
+                ./Lab/Lab03/ContructorWithDefaultArg/date.h
+                ./Lab/Lab03/ContructorWithDefaultArg/main.cpp
+                )
+add_executable(Lab03_Desctructor
+                ./Lab/Lab03/Desctructor/date.cpp
+                ./Lab/Lab03/Desctructor/date.h
+                ./Lab/Lab03/Desctructor/main.cpp
+                )
+add_executable(Lab03_Complex ./Lab/Lab03/Complex.cpp)

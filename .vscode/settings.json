@@ -19,6 +19,7 @@
   "functional": "cpp",
   "iosfwd": "cpp",
   "stdexcept": "cpp",
-  "algorithm": "cpp"
+  "algorithm": "cpp",
+  "ctime": "cpp"
 }
 }

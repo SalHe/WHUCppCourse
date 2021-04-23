@@ -1,5 +1,8 @@
-#include <iostream>
+#ifndef _PERSON_H_
+#define _PERSON_H_
+
 #include <string>
+#include <iostream>
 
 using namespace std;
 
@@ -96,5 +99,6 @@ public:
         Person::idCardNumber = idCardNumber;
     }
 
-
 };
+
+#endif

@@ -1,5 +1,8 @@
 // 日期类的定义。函数成员定义在类体中。
 // date.h
+#ifndef _DATE_H_
+#define _DATE_H_
+
 #include <iostream>
 using namespace std;
 class Date //定义日期类Date
@@ -13,3 +16,5 @@ private:
     int month;
     int day;
 }; //以括号及分号结束，体现封装
+
+#endif

@@ -1,5 +1,6 @@
 // main.cpp
-#include "date.cpp"
+// #include "date.cpp"
+#include "date.h"
 int main()
 {
     Date date1(1999, 4, 20);

@@ -20,6 +20,9 @@
   "iosfwd": "cpp",
   "stdexcept": "cpp",
   "algorithm": "cpp",
-  "ctime": "cpp"
+  "ctime": "cpp",
+  "iostream": "cpp",
+  "cctype": "cpp",
+  "istream": "cpp"
 }
 }

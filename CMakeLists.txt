@@ -76,3 +76,6 @@ add_executable(Lab03_Desctructor
                 ./Lab/Lab03/Desctructor/main.cpp
                 )
 add_executable(Lab03_Complex ./Lab/Lab03/Complex.cpp)
+add_executable(Lab03_StaticDataMember ./Lab/Lab03/StaticDataMember.cpp)
+add_executable(Lab03_StaticDataMember2 ./Lab/Lab03/StaticDataMember2.cpp)
+add_executable(Lab03_StaticFunctionMember ./Lab/Lab03/StaticFunctionMember.cpp)

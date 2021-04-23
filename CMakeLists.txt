@@ -79,6 +79,7 @@ add_executable(Lab03_Complex ./Lab/Lab03/Complex.cpp)
 add_executable(Lab03_StaticDataMember ./Lab/Lab03/StaticDataMember.cpp)
 add_executable(Lab03_StaticDataMember2 ./Lab/Lab03/StaticDataMember2.cpp)
 add_executable(Lab03_StaticFunctionMember ./Lab/Lab03/StaticFunctionMember.cpp)
+add_executable(Lab03_ObserveVars ./Lab/Lab03/ObserveVars.cpp)
 add_executable(Lab03_Person
                 ./Lab/Lab03/Person.cpp
                 ./HW/hw06/Person.cpp

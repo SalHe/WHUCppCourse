@@ -84,3 +84,6 @@ add_executable(Lab03_Person
                 ./Lab/Lab03/Person.cpp
                 ./HW/hw06/Person.cpp
                 )
+
+add_executable(HW10_IntArray ./HW/hw10/IntArray.cpp)
+add_executable(HW10_ShowSizeof ./HW/hw10/ShowSizeof.cpp)

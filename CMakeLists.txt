@@ -87,3 +87,7 @@ add_executable(Lab03_Person
 
 add_executable(HW10_IntArray ./HW/hw10/IntArray.cpp)
 add_executable(HW10_ShowSizeof ./HW/hw10/ShowSizeof.cpp)
+
+add_executable(HW12_SimpleCircle ./HW/hw12/SimpleCircle.cpp)
+add_executable(HW12_CountLetter ./HW/hw12/CountLetter.cpp)
+add_executable(HW12_ReverseString ./HW/hw12/ReverseString.cpp)

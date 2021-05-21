@@ -98,6 +98,10 @@ add_executable(Lab04_Pointer3 ./Lab/Lab04/Pointer3.cpp)
 add_executable(Lab04_Pointer4ConstPointer ./Lab/Lab04/Pointer4ConstPointer.cpp)
 add_executable(Lab04_SelectionSort ./Lab/Lab04/SelectionSort.cpp)
 add_executable(Lab04_SelectionSortMore ./Lab/Lab04/SelectionSortMore.cpp)
+add_executable(Lab04_LocalArray ./Lab/Lab04/LocalArray.cpp)
+add_executable(Lab04_ArrayAsArgs ./Lab/Lab04/ArrayAsArgs.cpp)
+add_executable(Lab04_GradeBook ./Lab/Lab04/GradeBook.cpp)
+add_executable(Lab04_GradeBook2 ./Lab/Lab04/GradeBook2.cpp)
 add_executable(Lab04_Bank 
                     ./Lab/Lab04/Bank/Main.cpp
                     ./Lab/Lab04/Bank/Date.cpp

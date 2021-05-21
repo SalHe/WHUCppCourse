@@ -105,3 +105,8 @@ add_executable(Lab04_Bank
                     ./Lab/Lab04/Bank/Account.cpp
                     ./Lab/Lab04/Bank/Account.h
                     )
+add_executable(Lab04_MatrixT ./Lab/Lab04/Final/MatrixT.cpp)
+add_executable(Lab04_MatrixTByPointer ./Lab/Lab04/Final/MatrixTByPointer.cpp)
+add_executable(Lab04_StringConcate ./Lab/Lab04/Final/StringConcate.cpp)
+add_executable(Lab04_StringConcateByStdString ./Lab/Lab04/Final/StringConcateByStdString.cpp)
+add_executable(Lab04_Person ./Lab/Lab04/Final/Person.cpp ./Lab/Lab04/Final/Person.h)

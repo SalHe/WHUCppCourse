@@ -114,3 +114,7 @@ add_executable(Lab04_MatrixTByPointer ./Lab/Lab04/Final/MatrixTByPointer.cpp)
 add_executable(Lab04_StringConcate ./Lab/Lab04/Final/StringConcate.cpp)
 add_executable(Lab04_StringConcateByStdString ./Lab/Lab04/Final/StringConcateByStdString.cpp)
 add_executable(Lab04_Person ./Lab/Lab04/Final/Person.cpp ./Lab/Lab04/Final/Person.h)
+
+add_executable(HW14_Shape ./HW/hw14/Shape.cpp)
+add_executable(HW14_Object ./HW/hw14/Object.cpp)
+add_executable(HW14_BaseClass ./HW/hw14/BaseClass.cpp)

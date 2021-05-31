@@ -1,10 +1,8 @@
 #ifndef _PERSON_H_
 #define _PERSON_H_
 
-#include <iostream>
+#include <stdio.h>
 #include <string.h>
-
-using namespace std;
 
 class Date
 {
@@ -82,7 +80,7 @@ public:
     {
         strcpy(this->id, id);
     }
-    
+
     const char *getName() const
     {
         return name;
@@ -92,7 +90,7 @@ public:
     {
         strcpy(this->name, name);
     }
-    
+
     const char *getNumber() const
     {
         return number;
@@ -121,6 +119,18 @@ public:
     void setBirthday(const Date &birthday)
     {
         Person::birthday = birthday;
+    }
+
+    virtual void show()
+    {
+        printf("%s(%s) is %s, born in %04d-%02d-%02d. You can call me at %s\n",
+               getName(),
+               getId(),
+               getSex(),
+               getBirthday().getYear(),
+               getBirthday().getMonth(),
+               getBirthday().getDay(),
+               getNumber());
     }
 };
 

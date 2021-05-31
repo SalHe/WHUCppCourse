@@ -121,3 +121,4 @@ add_executable(HW14_BaseClass ./HW/hw14/BaseClass.cpp)
 
 add_executable(Lab05_Vehicle ./Lab/Lab05/Vehicle.cpp)
 add_executable(Lab05_Point ./Lab/Lab05/Point.cpp)
+add_executable(Lab05_People ./Lab/Lab05/People.cpp)

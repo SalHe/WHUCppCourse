@@ -118,3 +118,5 @@ add_executable(Lab04_Person ./Lab/Lab04/Final/Person.cpp ./Lab/Lab04/Final/Perso
 add_executable(HW14_Shape ./HW/hw14/Shape.cpp)
 add_executable(HW14_Object ./HW/hw14/Object.cpp)
 add_executable(HW14_BaseClass ./HW/hw14/BaseClass.cpp)
+
+add_executable(Lab05_Vehicle ./Lab/Lab05/Vehicle.cpp)

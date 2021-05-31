@@ -125,3 +125,6 @@ add_executable(Lab05_People ./Lab/Lab05/People.cpp)
 add_executable(Lab05_Persons 
                     ./Lab/Lab05/Persons.cpp
                     ./Lab/Lab04/Final/Person.h)
+add_executable(Lab05_Exercise1 ./Lab/Lab05/Exercise1.cpp)
+add_executable(Lab05_Exercise2 ./Lab/Lab05/Exercise2.cpp)
+add_executable(Lab05_Exercise3 ./Lab/Lab05/Exercise3.cpp)

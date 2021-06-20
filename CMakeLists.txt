@@ -128,3 +128,8 @@ add_executable(Lab05_Persons
 add_executable(Lab05_Exercise1 ./Lab/Lab05/Exercise1.cpp)
 add_executable(Lab05_Exercise2 ./Lab/Lab05/Exercise2.cpp)
 add_executable(Lab05_Exercise3 ./Lab/Lab05/Exercise3.cpp)
+
+add_executable(HW15_Animals ./HW/hw15/Animals.cpp)
+add_executable(HW15_Shape ./HW/hw15/Shape.cpp)
+add_executable(HW15_BaseClass ./HW/hw15/BaseClass.cpp)
+add_executable(HW15_Point ./HW/hw15/Point.cpp)
